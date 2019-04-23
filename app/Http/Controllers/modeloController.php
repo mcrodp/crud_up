@@ -22,9 +22,13 @@ class modeloController extends Controller
          "content" =>"required|min:5max:200"
      ]);
 
+     //validator
+
      modelo::create(["title"=>$request->title,"content"=>$request->content]); //another way to create using associative array
 
        echo "successfully added";
+
+       //commrnt
 
     }
 
