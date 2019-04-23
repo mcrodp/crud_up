@@ -42,6 +42,8 @@ class modeloController extends Controller
 
         $modelforedit= modelo::find($id);        //copy paste from show
         return view('editform')->with("modelforedit",$modelforedit);
+
+        //comment
        
 
     }
